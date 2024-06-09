@@ -29,7 +29,16 @@ section {
   font-size: var(--font-size-main);
   color: var(--color-main);
   text-align: justify; 
-  }
+  align-items: stretch;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  padding: 78.5px;
+  width: 1280px;
+  height: 100%;
+  overflow-y: auto;
+}
+
 
 h1 {
   font-family: var(--font-family-title); 
