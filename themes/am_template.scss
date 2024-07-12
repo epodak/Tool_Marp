@@ -28,11 +28,11 @@ section {
   font-family: var(--font-family-main);
   font-size: var(--font-size-main);
   color: var(--color-main);
-  text-align: justify; 
-  align-items: stretch;
+  text-align: justify;
+  align-items: flex-start; /* 更改此处 */
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: flex-start; /* 更改此处 */
   padding: 78.5px;
   width: 1280px;
   height: 100%;
