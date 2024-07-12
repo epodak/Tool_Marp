@@ -182,13 +182,14 @@ h4 .MathJax, h5 .MathJax {
 
 pre {
   text-align: left;
-  border: 0.3px solid var(--color-few);
-  border-radius: 10px;
-  padding: 28px;
-  line-height: 115%;
-  overflow: auto;  
-  font-size: var(--font-size-footer);
-  font-size: 0.9rem;
+  border: 0.3px solid var(--color-few) !important;
+  border-radius: 10px !important;
+  padding: 28px !important;
+  line-height: 115% !important;
+  overflow-x: auto !important;
+  font-size: var(--font-size-footer) !important;
+  width: 900px !important;
+  white-space: pre !important;
 }
 
 *::-webkit-scrollbar {
