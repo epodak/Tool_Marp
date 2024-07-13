@@ -1677,7 +1677,15 @@ section.center-title {
   text-align: center;
 }
 
-
+section.auto-height {
+  height: auto !important; /* 覆盖section的固定高度设置 */
+  min-height: auto !important; /* 允许最小高度根据内容调整 */
+  width: 100% !important; /* 确保宽度为100% */
+  overflow: visible !important; /* 确保内容不会被剪裁 */
+  padding: 78.5px; /* 确保padding不变 */
+  box-sizing: border-box; /* 确保padding在box内 */
+  display: block !important; /* 确保内容根据块级元素展示 */
+}
 
 
 
